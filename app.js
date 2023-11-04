@@ -11,8 +11,11 @@ optionSelector.addEventListener("change", () => {
   if (selectedOption === "Search") {
     insertPokemonContainer.hidden = true;
     searchContainer.hidden = false;
-  } else if (selectedOption == "Insert") {
+  } else if (selectedOption === "Insert") {
     searchContainer.hidden = true;
     insertPokemonContainer.hidden = false;
+  } else if (selectedOption === "--Select--") {
+    searchContainer.hidden = true;
+    insertPokemonContainer.hidden = true;
   }
 });
