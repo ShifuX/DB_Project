@@ -1,12 +1,23 @@
-const optionSelector = document.getElementById("optionSelector");
+// Container fields
+const optionSelectorDropDown = document.getElementById("optionSelector");
 const searchContainer = document.getElementById("searchContainer");
 const insertPokemonContainer = document.getElementById(
   "insertPokemonContainer"
 );
+// Search fields
+const pokemonNameSearch = document.getElementById("pokemonName");
+const pokemonTypeSearchDropDown = document.getElementById("types");
+const searchButton = document.getElementById("searchButton");
+// Insert fields
+const pokemonNameInsert = document.getElementById("insertPokemonName");
+const pokemonHP = document.getElementById("pokemonHP");
+const insertTypesDropDown = document.getElementById("insertTypes");
+const pokemonSexDropDown = document.getElementById("pokemonSex");
+const insertButton = document.getElementById("insertPokemonButton");
 
-optionSelector.addEventListener("change", () => {
+optionSelectorDropDown.addEventListener("change", () => {
   let selectedOption =
-    optionSelector.options[optionSelector.selectedIndex].text;
+    optionSelectorDropDown.options[optionSelectorDropDown.selectedIndex].text;
 
   if (selectedOption === "Search") {
     insertPokemonContainer.hidden = true;
