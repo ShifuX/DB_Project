@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <h2>Search for a Pokemon</h2>
     <div>
         <label for="pokemonName">Pokemon Name:</label>
         <input type="text" name="pokemonName" id="pokemonName">
@@ -33,6 +34,39 @@
         <h2 id="displayPokemonName"></h2>
     </div>
 
+    <h2>Add a Pokemon</h2>
+    <div>
+        <label for="insertPokemonName">Pokemon Name:</label>
+        <input type="text" name="insertPokemonName" id="insertPokemonName">
+    </div>
+    <br>
+    <div>
+        <label for="pokemonHP">HP:</label>
+        <input type="number" name="pokemonHP" id="pokemonHP" min="0">
+    </div>
+    <br>
+    <div>
+        <label for="types">Select by types:</label>
+        <select name="types" id="types">
+            <option value="dark">Dark</option>
+            <option value="electric">Electric</option>
+            <option value="fairy">Fairy</option>
+            <option value="grass">Grass</option>
+            <option value="ghost">Ghost</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="pokemonSex">Sex:</label>
+        <select name="pokemonSex" id="pokemonSex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <input type="button" value="Submit" id="inputPokemonButton">
+    </div>
 </body>
 
 </html>
