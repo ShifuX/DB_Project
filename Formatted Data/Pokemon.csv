@@ -1,0 +1,1099 @@
+name,HP,sex,height
+Bulbasaur,45.0,F,5.59
+Ivysaur,60.0,F,9.06
+Venusaur,80.0,M,0.85
+Mega Venusaur,80.0,M,2.7
+Venusaur Gigantamax,,M,5.39
+Charmander,39.0,M,1.55
+Charmeleon,58.0,M,3.13
+Mega Charizard Y,78.0,F,4.7
+Charizard Gigantamax,,F,4.74
+Mega Charizard X,78.0,M,3.63
+Charizard,78.0,F,0.0
+Squirtle,44.0,F,1.37
+Wartortle,59.0,M,3.88
+Blastoise Gigantamax,,F,5.55
+Blastoise,79.0,M,8.19
+Mega Blastoise,79.0,F,3.6
+Caterpie,45.0,F,1.23
+Metapod,50.0,M,7.71
+Butterfree Gigantamax,,M,0.12
+Butterfree,60.0,M,1.68
+Weedle,40.0,M,3.13
+Kakuna,45.0,F,1.27
+Beedrill,65.0,M,9.02
+Mega Beedrill,65.0,F,6.36
+Pidgey,40.0,F,3.95
+Pidgeotto,63.0,M,3.32
+Pidgeot,83.0,M,1.68
+Mega Pidgeot,83.0,F,6.12
+Rattata,30.0,F,9.54
+Alolan Rattata,30.0,M,4.71
+Raticate,55.0,F,0.63
+Alolan Raticate,75.0,M,4.01
+Spearow,40.0,F,2.18
+Fearow,65.0,F,9.46
+Ekans,35.0,F,8.42
+Arbok,60.0,F,0.56
+Pikachu Gigantamax,,F,8.26
+Pikachu,35.0,M,9.68
+Partner Pikachu,45.0,F,0.85
+Alolan Raichu,60.0,F,4.71
+Raichu,60.0,F,8.8
+Alolan Sandshrew,50.0,M,3.33
+Sandshrew,50.0,M,3.19
+Sandslash,75.0,F,0.03
+Alolan Sandslash,75.0,F,1.55
+Nidoran♀,55.0,M,3.05
+Nidorina,70.0,F,5.73
+Nidoqueen,90.0,F,6.9
+Nidoran♂,46.0,F,4.24
+Nidorino,61.0,M,5.1
+Nidoking,81.0,F,1.36
+Clefairy,70.0,F,9.74
+Clefable,95.0,M,7.89
+Vulpix,38.0,F,1.11
+Alolan Vulpix,38.0,M,9.27
+Ninetales,73.0,M,2.36
+Alolan Ninetales,73.0,M,4.19
+Jigglypuff,115.0,M,8.87
+Wigglytuff,140.0,M,8.48
+Zubat,40.0,M,7.26
+Golbat,75.0,M,2.47
+Oddish,45.0,F,8.95
+Gloom,60.0,F,9.19
+Vileplume,75.0,F,8.99
+Paras,35.0,M,5.21
+Parasect,60.0,F,4.85
+Venonat,60.0,M,1.87
+Venomoth,70.0,F,8.95
+Alolan Diglett,10.0,F,6.11
+Diglett,10.0,M,0.7
+Alolan Dugtrio,35.0,F,6.12
+Dugtrio,35.0,F,2.33
+Meowth,40.0,F,5.86
+Alolan Meowth,40.0,F,9.97
+Galarian Meowth,50.0,M,8.83
+Meowth Gigantamax,,F,1.88
+Persian,65.0,F,4.58
+Alolan Persian,65.0,F,0.79
+Psyduck,50.0,F,9.06
+Golduck,80.0,M,4.34
+Mankey,40.0,F,6.36
+Primeape,65.0,M,9.89
+Hisuian Growlithe,60.0,F,9.83
+Growlithe,55.0,F,2.69
+Hisuian Arcanine,95.0,F,9.08
+Arcanine,90.0,M,8.34
+Poliwag,40.0,M,6.37
+Poliwhirl,65.0,M,8.88
+Poliwrath,90.0,F,3.68
+Abra,25.0,M,9.21
+Kadabra,40.0,M,4.91
+Alakazam,55.0,M,4.38
+Mega Alakazam,55.0,M,1.64
+Machop,70.0,M,3.95
+Machoke,80.0,M,5.61
+Machamp Gigantamax,,M,4.16
+Machamp,90.0,F,4.45
+Bellsprout,50.0,F,5.87
+Weepinbell,65.0,M,1.82
+Victreebel,80.0,M,7.44
+Tentacool,40.0,F,8.48
+Tentacruel,80.0,M,7.64
+Geodude,40.0,M,7.26
+Alolan Geodude,40.0,M,7.57
+Graveler,55.0,F,3.0
+Alolan Graveler,55.0,M,6.53
+Golem,80.0,M,2.58
+Alolan Golem,80.0,F,5.39
+Ponyta,50.0,M,6.35
+Galarian Ponyta,50.0,M,4.71
+Rapidash,65.0,M,9.23
+Galarian Rapidash,65.0,M,9.46
+Galarian Slowpoke,90.0,F,7.52
+Slowpoke,90.0,F,7.47
+Mega Slowbro,95.0,M,1.88
+Galarian Slowbro,95.0,F,6.6
+Slowbro,95.0,M,2.67
+Magnemite,25.0,M,7.18
+Magneton,50.0,M,4.29
+Farfetch'd,52.0,M,8.73
+Galarian Farfetch'd,52.0,M,4.32
+Doduo,35.0,F,6.23
+Dodrio,60.0,M,1.89
+Seel,65.0,M,2.17
+Dewgong,90.0,F,4.02
+Grimer,80.0,M,4.16
+Alolan Grimer,80.0,F,6.33
+Alolan Muk,105.0,F,7.6
+Muk,105.0,F,2.43
+Shellder,30.0,F,4.61
+Cloyster,50.0,F,8.6
+Gastly,30.0,M,2.67
+Haunter,45.0,M,9.64
+Gengar,60.0,M,1.73
+Gengar Gigantamax,,M,8.58
+Mega Gengar,60.0,F,8.73
+Onix,35.0,M,2.21
+Drowzee,60.0,F,8.41
+Hypno,85.0,F,4.23
+Krabby,30.0,M,3.41
+Kingler Gigantamax,,M,5.29
+Kingler,55.0,F,4.76
+Hisuian Voltorb,40.0,M,9.75
+Voltorb,40.0,M,1.56
+Hisuian Electrode,60.0,F,1.34
+Electrode,60.0,F,6.06
+Exeggcute,60.0,F,6.04
+Alolan Exeggutor,95.0,M,3.66
+Exeggutor,95.0,F,6.86
+Cubone,50.0,F,7.85
+Alolan Marowak,60.0,F,5.5
+Marowak,60.0,M,4.65
+Hitmonlee,50.0,F,6.37
+Hitmonchan,50.0,M,9.24
+Lickitung,90.0,F,4.14
+Koffing,40.0,F,1.94
+Weezing,65.0,M,5.47
+Galarian Weezing,65.0,M,1.96
+Rhyhorn,80.0,M,4.63
+Rhydon,105.0,F,9.63
+Chansey,250.0,M,2.59
+Tangela,65.0,F,8.33
+Kangaskhan,105.0,M,8.1
+Mega Kangaskhan,105.0,F,3.2
+Horsea,30.0,F,9.34
+Seadra,55.0,M,3.55
+Goldeen,45.0,F,1.75
+Seaking,80.0,M,4.88
+Staryu,30.0,F,2.66
+Starmie,60.0,M,7.67
+Mime Galarian Mr. Mime,50.0,M,4.63
+Mr. Mime,40.0,M,5.83
+Scyther,70.0,M,3.57
+Jynx,65.0,M,7.03
+Electabuzz,65.0,F,6.76
+Magmar,65.0,M,4.01
+Mega Pinsir,65.0,M,5.01
+Pinsir,65.0,F,7.89
+Tauros,75.0,M,6.94
+Magikarp,20.0,M,5.37
+Mega Gyarados,95.0,F,4.97
+Gyarados,95.0,F,6.62
+Lapras Gigantamax,,M,4.67
+Lapras,130.0,F,1.5
+Ditto,48.0,F,7.59
+Partner Eevee,65.0,M,1.93
+Eevee Gigantamax,,F,4.85
+Eevee,55.0,M,3.7
+Vaporeon,130.0,M,4.87
+Jolteon,65.0,M,2.38
+Flareon,65.0,M,8.1
+Porygon,65.0,F,7.64
+Omanyte,35.0,F,0.71
+Omastar,70.0,M,0.9
+Kabuto,30.0,F,5.7
+Kabutops,60.0,F,8.82
+Aerodactyl,80.0,M,7.11
+Mega Aerodactyl,80.0,F,1.02
+Snorlax Gigantamax,,F,4.11
+Snorlax,160.0,F,3.67
+Galarian Articuno,90.0,F,8.97
+Articuno,90.0,M,3.34
+Galarian Zapdos,90.0,M,1.14
+Zapdos,90.0,M,8.4
+Galarian Moltres,90.0,F,1.31
+Moltres,90.0,F,6.62
+Dratini,41.0,M,1.76
+Dragonair,61.0,F,3.06
+Dragonite,91.0,M,6.5
+Mega Mewtwo Y,106.0,F,6.45
+Mega Mewtwo X,106.0,M,1.86
+Mewtwo,106.0,M,9.74
+Mew,100.0,M,1.45
+Chikorita,45.0,F,7.99
+Bayleef,60.0,M,3.84
+Meganium,80.0,F,5.21
+Cyndaquil,39.0,M,4.16
+Quilava,58.0,F,6.44
+Hisuian Typhlosion,73.0,M,7.23
+Typhlosion,78.0,F,1.77
+Totodile,50.0,F,9.25
+Croconaw,65.0,M,6.71
+Feraligatr,85.0,M,9.54
+Sentret,35.0,M,4.95
+Furret,85.0,F,5.18
+Hoothoot,60.0,F,0.76
+Noctowl,100.0,F,8.74
+Ledyba,40.0,M,8.24
+Ledian,55.0,M,8.93
+Spinarak,40.0,F,4.83
+Ariados,70.0,F,9.44
+Crobat,85.0,M,4.2
+Chinchou,75.0,F,1.18
+Lanturn,125.0,F,2.26
+Pichu,20.0,M,8.09
+Cleffa,50.0,M,8.3
+Igglybuff,90.0,F,7.75
+Togepi,35.0,F,5.31
+Togetic,55.0,F,3.65
+Natu,40.0,M,3.75
+Xatu,65.0,F,8.99
+Mareep,55.0,F,4.27
+Flaaffy,70.0,M,5.39
+Ampharos,90.0,F,5.92
+Mega Ampharos,90.0,F,1.87
+Bellossom,75.0,M,2.53
+Marill,70.0,M,7.33
+Azumarill,100.0,F,3.56
+Sudowoodo,70.0,M,3.1
+Politoed,90.0,F,1.02
+Hoppip,35.0,F,4.56
+Skiploom,55.0,M,7.84
+Jumpluff,75.0,F,2.46
+Aipom,55.0,M,7.54
+Sunkern,30.0,M,7.19
+Sunflora,75.0,M,8.44
+Yanma,65.0,M,5.62
+Wooper,55.0,M,6.17
+Quagsire,95.0,F,2.92
+Espeon,65.0,M,7.75
+Umbreon,95.0,M,1.81
+Murkrow,60.0,F,3.65
+Slowking,95.0,F,9.17
+Galarian Slowking,95.0,F,0.46
+Misdreavus,60.0,M,2.65
+Unown,48.0,F,3.34
+Wobbuffet,190.0,F,3.75
+Girafarig,70.0,F,0.85
+Pineco,50.0,M,0.71
+Forretress,75.0,M,7.04
+Dunsparce,100.0,F,9.05
+Gligar,65.0,M,6.63
+Steelix,75.0,M,7.93
+Mega Steelix,75.0,F,0.08
+Snubbull,60.0,F,5.06
+Granbull,90.0,M,2.4
+Hisuian Qwilfish,65.0,M,3.35
+Qwilfish,65.0,M,1.41
+Mega Scizor,70.0,M,8.48
+Scizor,70.0,F,7.46
+Shuckle,20.0,M,5.7
+Heracross,80.0,F,1.93
+Mega Heracross,80.0,M,6.94
+Hisuian Sneasel,55.0,M,9.04
+Sneasel,55.0,M,1.96
+Teddiursa,60.0,M,0.08
+Ursaring,90.0,M,1.93
+Slugma,40.0,M,2.82
+Magcargo,60.0,M,3.45
+Swinub,50.0,F,6.8
+Piloswine,100.0,F,5.88
+Corsola,65.0,M,1.87
+Galarian Corsola,60.0,F,2.4
+Remoraid,35.0,M,4.73
+Octillery,75.0,F,3.79
+Delibird,45.0,M,0.76
+Mantine,85.0,M,2.71
+Skarmory,65.0,M,6.98
+Houndour,45.0,M,1.63
+Houndoom,75.0,M,8.94
+Mega Houndoom,75.0,M,8.64
+Kingdra,75.0,M,0.93
+Phanpy,90.0,M,2.69
+Donphan,90.0,F,7.04
+Porygon2,85.0,F,1.55
+Stantler,73.0,F,6.07
+Smeargle,55.0,M,7.38
+Tyrogue,35.0,M,8.32
+Hitmontop,50.0,M,7.6
+Smoochum,45.0,F,1.55
+Elekid,45.0,M,5.46
+Magby,45.0,F,0.5
+Miltank,95.0,F,7.19
+Blissey,255.0,F,2.18
+Raikou,90.0,F,7.14
+Entei,115.0,F,4.99
+Suicune,100.0,F,3.25
+Larvitar,50.0,M,6.21
+Pupitar,70.0,M,6.51
+Mega Tyranitar,100.0,F,1.21
+Tyranitar,100.0,F,9.51
+Lugia,106.0,F,3.97
+Ho-oh,106.0,M,4.99
+Celebi,100.0,F,6.48
+Treecko,40.0,M,4.28
+Grovyle,50.0,M,0.62
+Mega Sceptile,70.0,M,7.09
+Sceptile,70.0,F,9.13
+Torchic,45.0,M,1.18
+Combusken,60.0,M,3.02
+Blaziken,80.0,M,4.21
+Mega Blaziken,80.0,F,2.4
+Mudkip,50.0,M,6.33
+Marshtomp,70.0,M,0.92
+Mega Swampert,100.0,F,8.98
+Swampert,100.0,M,3.95
+Poochyena,35.0,M,7.63
+Mightyena,70.0,M,5.22
+Zigzagoon,38.0,M,3.28
+Galarian Zigzagoon,38.0,M,1.2
+Linoone,78.0,M,2.38
+Galarian Linoone,78.0,M,0.46
+Wurmple,45.0,M,4.71
+Silcoon,50.0,F,1.37
+Beautifly,60.0,M,1.98
+Cascoon,50.0,F,7.75
+Dustox,60.0,F,2.84
+Lotad,40.0,M,7.78
+Lombre,60.0,F,8.99
+Ludicolo,80.0,M,3.14
+Seedot,40.0,F,1.42
+Nuzleaf,70.0,F,2.18
+Shiftry,90.0,F,6.38
+Taillow,40.0,M,2.57
+Swellow,60.0,M,8.73
+Wingull,40.0,F,8.42
+Pelipper,60.0,F,4.29
+Ralts,28.0,F,3.27
+Kirlia,38.0,F,8.65
+Gardevoir,68.0,F,8.33
+Mega Gardevoir,68.0,F,0.05
+Surskit,40.0,M,3.44
+Masquerain,70.0,F,3.81
+Shroomish,60.0,F,4.9
+Breloom,60.0,F,1.78
+Slakoth,60.0,F,6.71
+Vigoroth,80.0,M,2.7
+Slaking,150.0,M,9.35
+Nincada,31.0,M,7.17
+Ninjask,61.0,M,9.74
+Shedinja,1.0,M,8.83
+Whismur,64.0,M,8.64
+Loudred,84.0,M,7.26
+Exploud,104.0,F,1.12
+Makuhita,72.0,M,3.24
+Hariyama,144.0,M,7.01
+Azurill,50.0,M,5.84
+Nosepass,30.0,F,4.12
+Skitty,50.0,F,2.79
+Delcatty,70.0,M,8.39
+Mega Sableye,50.0,M,3.83
+Sableye,50.0,F,2.57
+Mawile,50.0,M,1.35
+Mega Mawile,50.0,M,4.13
+Aron,50.0,F,9.07
+Lairon,60.0,M,6.84
+Aggron,70.0,F,0.66
+Mega Aggron,70.0,F,0.06
+Meditite,30.0,M,6.13
+Medicham,60.0,F,4.26
+Mega Medicham,60.0,F,8.23
+Electrike,40.0,M,0.51
+Manectric,70.0,M,0.23
+Mega Manectric,70.0,F,6.48
+Plusle,60.0,F,5.94
+Minun,60.0,F,0.49
+Volbeat,65.0,M,1.26
+Illumise,65.0,F,8.12
+Roselia,50.0,M,2.22
+Gulpin,70.0,M,6.37
+Swalot,100.0,F,1.74
+Carvanha,45.0,M,9.87
+Mega Sharpedo,70.0,M,7.4
+Sharpedo,70.0,F,1.17
+Wailmer,130.0,F,0.74
+Wailord,170.0,M,6.46
+Numel,60.0,M,8.48
+Camerupt,70.0,F,6.95
+Mega Camerupt,70.0,M,1.86
+Torkoal,70.0,M,5.32
+Spoink,60.0,F,6.98
+Grumpig,80.0,M,2.85
+Spinda,60.0,M,6.27
+Trapinch,45.0,M,5.87
+Vibrava,50.0,M,0.99
+Flygon,80.0,F,7.8
+Cacnea,50.0,M,8.17
+Cacturne,70.0,F,6.22
+Swablu,45.0,F,9.11
+Altaria,75.0,F,3.45
+Mega Altaria,75.0,M,3.14
+Zangoose,73.0,F,9.47
+Seviper,73.0,M,8.91
+Lunatone,90.0,M,3.98
+Solrock,90.0,F,1.28
+Barboach,50.0,M,3.08
+Whiscash,110.0,F,3.35
+Corphish,43.0,M,0.61
+Crawdaunt,63.0,F,3.01
+Baltoy,40.0,M,9.94
+Claydol,60.0,F,9.11
+Lileep,66.0,F,0.42
+Cradily,86.0,F,2.15
+Anorith,45.0,F,4.97
+Armaldo,75.0,F,3.9
+Feebas,20.0,F,3.74
+Milotic,95.0,F,7.05
+Castform,70.0,M,7.23
+Castform Sunny Form,70.0,F,9.1
+Castform Rainy Form,70.0,F,8.58
+Castform Snowy Form,70.0,F,1.27
+Kecleon,60.0,M,6.84
+Shuppet,44.0,M,6.62
+Mega Banette,64.0,F,7.59
+Banette,64.0,M,6.26
+Duskull,20.0,F,2.54
+Dusclops,40.0,M,8.32
+Tropius,99.0,M,0.3
+Chimecho,75.0,M,6.2
+Absol,65.0,F,7.59
+Mega Absol,65.0,M,7.86
+Wynaut,95.0,F,9.21
+Snorunt,50.0,M,5.2
+Mega Glalie,80.0,F,8.13
+Glalie,80.0,F,1.53
+Spheal,70.0,F,4.17
+Sealeo,90.0,M,8.48
+Walrein,110.0,M,6.75
+Clamperl,35.0,F,5.31
+Huntail,55.0,M,5.74
+Gorebyss,55.0,F,7.34
+Relicanth,100.0,F,7.05
+Luvdisc,43.0,F,8.49
+Bagon,45.0,F,8.4
+Shelgon,65.0,M,6.8
+Mega Salamence,95.0,F,4.63
+Salamence,95.0,F,0.17
+Beldum,40.0,M,6.06
+Metang,60.0,F,5.71
+Mega Metagross,80.0,M,1.57
+Metagross,80.0,F,6.17
+Regirock,80.0,M,4.97
+Regice,80.0,F,8.01
+Registeel,80.0,M,3.52
+Mega Latias,80.0,M,7.95
+Latias,80.0,M,3.15
+Latios,80.0,F,9.48
+Mega Latios,80.0,M,3.67
+Primal Kyogre,100.0,F,8.18
+Kyogre,100.0,F,1.67
+Primal Groudon,100.0,M,6.79
+Groudon,100.0,F,4.65
+Mega Rayquaza,105.0,M,4.72
+Rayquaza,105.0,M,1.46
+Jirachi,100.0,F,3.49
+Deoxys Defense Forme,50.0,F,4.09
+Deoxys Attack Forme,50.0,F,3.62
+Deoxys Normal Forme,50.0,F,0.07
+Deoxys Speed Forme,50.0,F,8.06
+Turtwig,55.0,M,9.07
+Grotle,75.0,F,5.85
+Torterra,95.0,M,2.31
+Chimchar,44.0,F,9.4
+Monferno,64.0,M,7.47
+Infernape,76.0,F,2.14
+Piplup,53.0,F,4.75
+Prinplup,64.0,F,0.12
+Empoleon,84.0,M,0.17
+Starly,40.0,F,3.55
+Staravia,55.0,F,4.02
+Staraptor,85.0,M,7.81
+Bidoof,59.0,M,9.45
+Bibarel,79.0,F,7.72
+Kricketot,37.0,M,1.99
+Kricketune,77.0,M,7.58
+Shinx,45.0,M,5.85
+Luxio,60.0,M,4.69
+Luxray,80.0,M,8.34
+Budew,40.0,M,7.76
+Roserade,60.0,M,9.61
+Cranidos,67.0,F,0.54
+Rampardos,97.0,M,2.4
+Shieldon,30.0,M,8.64
+Bastiodon,60.0,F,9.98
+Burmy Plant Cloak,40.0,M,3.6
+Burmy Sandy Cloak,40.0,M,8.73
+Burmy Trash Cloak,40.0,M,6.22
+Wormadam Plant Cloak,60.0,M,7.25
+Wormadam Sandy Cloak,60.0,F,6.36
+Wormadam Trash Cloak,60.0,F,2.54
+Mothim,70.0,F,1.75
+Combee,30.0,M,6.77
+Vespiquen,70.0,F,8.42
+Pachirisu,60.0,M,2.35
+Buizel,55.0,F,1.26
+Floatzel,85.0,F,9.32
+Cherubi,45.0,F,2.65
+Cherrim,70.0,F,7.06
+Shellos,76.0,M,5.15
+Gastrodon,111.0,F,4.82
+Ambipom,75.0,F,8.1
+Drifloon,90.0,M,9.17
+Drifblim,150.0,F,2.39
+Buneary,55.0,M,2.57
+Mega Lopunny,65.0,M,2.09
+Lopunny,65.0,F,1.76
+Mismagius,60.0,M,8.21
+Honchkrow,100.0,M,1.19
+Glameow,49.0,F,1.71
+Purugly,71.0,F,5.0
+Chingling,45.0,F,3.15
+Stunky,63.0,M,5.02
+Skuntank,103.0,M,4.1
+Bronzor,57.0,F,5.99
+Bronzong,67.0,F,2.74
+Bonsly,50.0,F,6.88
+Mime Jr.,20.0,M,6.14
+Happiny,100.0,F,2.18
+Chatot,76.0,F,0.21
+Spiritomb,50.0,M,9.61
+Gible,58.0,F,7.95
+Gabite,68.0,F,3.39
+Garchomp,108.0,F,8.92
+Mega Garchomp,108.0,M,1.63
+Munchlax,135.0,M,2.26
+Riolu,40.0,M,4.99
+Mega Lucario,70.0,F,5.19
+Lucario,70.0,M,6.25
+Hippopotas,68.0,M,3.58
+Hippowdon,108.0,F,4.5
+Skorupi,40.0,M,8.41
+Drapion,70.0,M,3.83
+Croagunk,48.0,F,6.65
+Toxicroak,83.0,F,9.91
+Carnivine,74.0,F,8.9
+Finneon,49.0,F,6.61
+Lumineon,69.0,F,1.56
+Mantyke,45.0,F,3.59
+Snover,60.0,F,8.49
+Abomasnow,90.0,F,0.56
+Mega Abomasnow,90.0,F,5.3
+Weavile,70.0,M,1.59
+Magnezone,70.0,F,5.26
+Lickilicky,110.0,F,3.4
+Rhyperior,115.0,F,3.84
+Tangrowth,100.0,M,1.02
+Electivire,75.0,M,6.89
+Magmortar,75.0,F,4.1
+Togekiss,85.0,M,9.55
+Yanmega,86.0,F,8.97
+Leafeon,65.0,F,7.0
+Glaceon,65.0,M,2.67
+Gliscor,75.0,M,8.06
+Mamoswine,110.0,M,2.18
+Porygon-Z,85.0,F,6.79
+Gallade,68.0,F,1.76
+Mega Gallade,68.0,F,5.09
+Probopass,60.0,F,3.69
+Dusknoir,45.0,F,5.24
+Froslass,70.0,F,7.65
+Fan Rotom,50.0,M,2.21
+Frost Rotom,50.0,M,0.94
+Wash Rotom,50.0,M,8.03
+Heat Rotom,50.0,M,5.76
+Rotom,50.0,M,4.72
+Mow Rotom,50.0,M,0.89
+Uxie,75.0,M,6.49
+Mesprit,80.0,F,0.36
+Azelf,75.0,F,1.44
+Dialga,100.0,F,4.22
+Dialga Origin Forme,100.0,F,1.34
+Palkia Origin Forme,90.0,M,8.34
+Palkia,90.0,M,7.02
+Heatran,91.0,M,9.11
+Regigigas,110.0,F,6.72
+Giratina Origin Forme,150.0,M,7.19
+Giratina Altered Forme,150.0,F,7.46
+Cresselia,120.0,M,3.45
+Phione,80.0,M,5.09
+Manaphy,100.0,F,0.52
+Darkrai,70.0,M,5.65
+Shaymin Land Forme,100.0,M,6.47
+Shaymin Sky Forme,100.0,M,7.55
+Arceus,120.0,F,9.46
+Victini,100.0,F,8.09
+Snivy,45.0,F,5.87
+Servine,60.0,M,1.12
+Serperior,75.0,F,7.3
+Tepig,65.0,M,1.84
+Pignite,90.0,F,3.27
+Emboar,110.0,F,9.33
+Oshawott,55.0,F,1.29
+Dewott,75.0,M,9.48
+Samurott,95.0,M,3.55
+Hisuian Samurott,90.0,M,5.46
+Patrat,45.0,M,3.8
+Watchog,60.0,F,8.54
+Lillipup,45.0,M,5.86
+Herdier,65.0,F,7.08
+Stoutland,85.0,M,9.19
+Purrloin,41.0,M,8.56
+Liepard,64.0,F,1.52
+Pansage,50.0,M,0.77
+Simisage,75.0,F,3.31
+Pansear,50.0,F,9.64
+Simisear,75.0,F,9.82
+Panpour,50.0,M,1.34
+Simipour,75.0,F,7.32
+Munna,76.0,F,7.14
+Musharna,116.0,F,2.58
+Pidove,50.0,M,9.85
+Tranquill,62.0,F,5.82
+Unfezant,80.0,M,7.16
+Blitzle,45.0,M,7.63
+Zebstrika,75.0,M,3.84
+Roggenrola,55.0,F,9.74
+Boldore,70.0,F,5.74
+Gigalith,85.0,M,2.06
+Woobat,65.0,M,6.76
+Swoobat,67.0,M,1.07
+Drilbur,60.0,M,1.92
+Excadrill,110.0,M,9.69
+Mega Audino,103.0,M,1.78
+Audino,103.0,M,5.57
+Timburr,75.0,M,5.17
+Gurdurr,85.0,M,9.83
+Conkeldurr,105.0,F,0.55
+Tympole,50.0,F,2.56
+Palpitoad,75.0,M,5.31
+Seismitoad,105.0,M,9.07
+Throh,120.0,F,9.81
+Sawk,75.0,M,3.87
+Sewaddle,45.0,M,8.75
+Swadloon,55.0,M,5.46
+Leavanny,75.0,M,4.16
+Venipede,30.0,F,0.96
+Whirlipede,40.0,F,1.17
+Scolipede,60.0,F,8.27
+Cottonee,40.0,M,4.37
+Whimsicott,60.0,M,3.19
+Petilil,45.0,F,0.07
+Hisuian Lilligant,70.0,M,2.05
+Lilligant,70.0,M,4.24
+Basculin White-Striped Form,70.0,M,3.15
+Basculin Blue-Striped Form,70.0,M,3.41
+Basculin Red-Striped Form,70.0,M,5.99
+Sandile,50.0,F,5.54
+Krokorok,60.0,M,1.17
+Krookodile,95.0,F,5.89
+Galarian Darumaka,70.0,F,4.32
+Darumaka,70.0,F,5.77
+Darmanitan Standard Mode,105.0,F,0.8
+Darmanitan Galarian Zen Mode,105.0,F,2.51
+Darmanitan Galarian Standard Mode,105.0,F,4.86
+Darmanitan Zen Mode,105.0,M,7.97
+Maractus,75.0,M,8.49
+Dwebble,50.0,M,6.47
+Crustle,70.0,M,0.03
+Scraggy,50.0,F,0.83
+Scrafty,65.0,F,5.57
+Sigilyph,72.0,F,1.68
+Galarian Yamask,38.0,M,6.35
+Yamask,38.0,F,1.49
+Cofagrigus,58.0,M,4.2
+Tirtouga,54.0,F,3.98
+Carracosta,74.0,M,0.55
+Archen,55.0,M,9.71
+Archeops,75.0,F,6.19
+Trubbish,50.0,M,3.0
+Garbodor Gigantamax,,M,9.51
+Garbodor,80.0,M,1.12
+Zorua,40.0,F,5.02
+Hisuian Zorua,35.0,M,5.17
+Zoroark,60.0,F,3.04
+Hisuian Zoroark,55.0,F,4.29
+Minccino,55.0,F,6.36
+Cinccino,75.0,M,1.92
+Gothita,45.0,M,8.38
+Gothorita,60.0,F,4.02
+Gothitelle,70.0,M,2.68
+Solosis,45.0,M,8.53
+Duosion,65.0,F,7.79
+Reuniclus,110.0,M,5.2
+Ducklett,62.0,F,8.98
+Swanna,75.0,F,7.12
+Vanillite,36.0,F,8.87
+Vanillish,51.0,M,5.11
+Vanilluxe,71.0,F,6.87
+Deerling,60.0,M,4.74
+Sawsbuck,80.0,F,0.49
+Emolga,55.0,M,7.02
+Karrablast,50.0,M,9.66
+Escavalier,70.0,F,4.05
+Foongus,69.0,M,9.24
+Amoonguss,114.0,F,1.07
+Frillish,55.0,F,2.26
+Jellicent,100.0,F,9.68
+Alomomola,165.0,F,7.75
+Joltik,50.0,M,8.12
+Galvantula,70.0,F,8.07
+Ferroseed,44.0,M,8.71
+Ferrothorn,74.0,F,7.93
+Klink,40.0,F,6.88
+Klang,60.0,M,4.37
+Klinklang,60.0,M,7.07
+Tynamo,35.0,M,5.55
+Eelektrik,65.0,F,7.0
+Eelektross,85.0,M,5.09
+Elgyem,55.0,M,9.08
+Beheeyem,75.0,M,6.86
+Litwick,50.0,F,9.89
+Lampent,60.0,M,7.99
+Chandelure,60.0,M,7.08
+Axew,46.0,F,0.44
+Fraxure,66.0,M,6.39
+Haxorus,76.0,F,0.64
+Cubchoo,55.0,M,4.59
+Beartic,95.0,F,0.86
+Cryogonal,80.0,M,8.49
+Shelmet,50.0,F,7.29
+Accelgor,80.0,M,4.01
+Stunfisk,109.0,F,7.47
+Galarian Stunfisk,109.0,M,4.49
+Mienfoo,45.0,F,2.64
+Mienshao,65.0,M,3.57
+Druddigon,77.0,F,3.52
+Golett,59.0,M,7.57
+Golurk,89.0,F,5.55
+Pawniard,45.0,M,4.15
+Bisharp,65.0,F,4.22
+Bouffalant,95.0,M,6.6
+Rufflet,70.0,F,0.25
+Hisuian Braviary,110.0,F,3.91
+Braviary,100.0,M,9.52
+Vullaby,70.0,F,1.37
+Mandibuzz,110.0,M,9.36
+Heatmor,85.0,F,7.31
+Durant,58.0,F,6.03
+Deino,52.0,F,1.35
+Zweilous,72.0,M,4.26
+Hydreigon,92.0,F,6.85
+Larvesta,55.0,M,7.77
+Volcarona,85.0,F,3.6
+Cobalion,91.0,M,1.26
+Terrakion,91.0,F,0.65
+Virizion,91.0,F,6.1
+Tornadus Incarnate Forme,79.0,M,6.66
+Tornadus Therian Forme,79.0,M,8.05
+Thundurus Therian Forme,79.0,F,7.14
+Thundurus Incarnate Forme,79.0,F,0.6
+Reshiram,100.0,F,3.51
+Zekrom,100.0,F,2.69
+Landorus Incarnate Forme,89.0,F,1.51
+Landorus Therian Forme,89.0,F,5.97
+Kyurem,125.0,F,2.02
+Black Kyurem,125.0,M,3.09
+White Kyurem,125.0,F,3.98
+Keldeo Resolute Form,91.0,M,8.35
+Keldeo Ordinary Form,91.0,M,0.46
+Meloetta Pirouette Forme,100.0,F,1.1
+Meloetta Aria Forme,100.0,M,0.04
+Genesect,71.0,M,2.9
+Chespin,56.0,F,9.12
+Quilladin,61.0,F,2.09
+Chesnaught,88.0,M,7.31
+Fennekin,40.0,F,0.66
+Braixen,59.0,M,2.42
+Delphox,75.0,M,3.4
+Froakie,41.0,F,4.08
+Frogadier,54.0,M,0.05
+Greninja,72.0,F,9.54
+Ash-Greninja,72.0,F,0.72
+Bunnelby,38.0,M,4.34
+Diggersby,85.0,M,3.02
+Fletchling,45.0,F,5.73
+Fletchinder,62.0,M,7.8
+Talonflame,78.0,M,6.48
+Scatterbug,38.0,F,4.8
+Spewpa,45.0,M,8.13
+Vivillon,80.0,F,1.94
+Litleo,62.0,F,2.91
+Pyroar,86.0,M,4.38
+Flabébé,44.0,M,2.18
+Floette,54.0,M,9.14
+Florges,78.0,F,4.93
+Skiddo,66.0,F,5.26
+Gogoat,123.0,F,6.79
+Pancham,67.0,F,2.13
+Pangoro,95.0,M,3.3
+Furfrou,75.0,F,1.29
+Espurr,62.0,F,9.46
+Meowstic Female,74.0,M,4.23
+Meowstic Male,74.0,F,9.37
+Honedge,45.0,F,7.43
+Doublade,59.0,M,6.96
+Aegislash Blade Forme,60.0,M,8.63
+Aegislash Shield Forme,60.0,M,4.98
+Spritzee,78.0,F,1.47
+Aromatisse,101.0,F,8.7
+Swirlix,62.0,M,4.4
+Slurpuff,82.0,F,5.3
+Inkay,53.0,F,2.42
+Malamar,86.0,F,0.04
+Binacle,42.0,M,4.06
+Barbaracle,72.0,F,1.86
+Skrelp,50.0,M,1.14
+Dragalge,65.0,M,7.77
+Clauncher,50.0,F,0.21
+Clawitzer,71.0,F,8.17
+Helioptile,44.0,M,4.55
+Heliolisk,62.0,M,6.18
+Tyrunt,58.0,M,5.28
+Tyrantrum,82.0,M,4.73
+Amaura,77.0,M,9.84
+Aurorus,123.0,M,4.03
+Sylveon,95.0,F,1.92
+Hawlucha,78.0,M,0.75
+Dedenne,67.0,F,6.11
+Carbink,50.0,M,3.49
+Goomy,45.0,M,7.01
+Hisuian Sliggoo,58.0,F,8.18
+Sliggoo,68.0,F,3.72
+Goodra,90.0,M,4.71
+Hisuian Goodra,80.0,F,0.53
+Klefki,57.0,M,2.28
+Phantump,43.0,M,2.73
+Trevenant,85.0,F,0.43
+Pumpkaboo Super Size,59.0,M,6.17
+Pumpkaboo Large Size,54.0,M,3.95
+Pumpkaboo Small Size,44.0,M,0.62
+Pumpkaboo Average Size,49.0,F,8.54
+Gourgeist Super Size,85.0,M,3.0
+Gourgeist Large Size,75.0,F,5.42
+Gourgeist Small Size,55.0,M,0.25
+Gourgeist Average Size,65.0,M,9.76
+Bergmite,55.0,F,8.42
+Hisuian Avalugg,95.0,M,2.33
+Avalugg,95.0,M,4.78
+Noibat,40.0,M,0.09
+Noivern,85.0,M,9.35
+Xerneas,126.0,F,1.02
+Yveltal,126.0,F,7.88
+Zygarde Complete Forme,216.0,F,3.01
+Zygarde 10% Forme,54.0,M,3.58
+Zygarde 50% Forme,108.0,M,1.57
+Mega Diancie,50.0,F,7.91
+Diancie,50.0,F,2.08
+Hoopa Unbound,80.0,M,2.31
+Hoopa Confined,80.0,F,6.92
+Volcanion,80.0,M,0.55
+Rowlet,68.0,M,9.03
+Dartrix,78.0,M,5.98
+Hisuian Decidueye,88.0,F,9.48
+Decidueye,78.0,M,7.81
+Litten,45.0,M,9.68
+Torracat,65.0,F,3.15
+Incineroar,95.0,F,7.25
+Popplio,50.0,F,9.44
+Brionne,60.0,M,6.21
+Primarina,80.0,F,0.5
+Pikipek,35.0,F,4.89
+Trumbeak,55.0,F,7.69
+Toucannon,80.0,F,9.57
+Yungoos,48.0,F,7.61
+Gumshoos,88.0,M,7.21
+Grubbin,47.0,M,5.64
+Charjabug,57.0,M,7.7
+Vikavolt,77.0,F,6.02
+Crabrawler,47.0,M,5.66
+Crabominable,97.0,F,5.33
+Oricorio Pa'u Style,75.0,M,7.94
+Oricorio Pom-Pom Style,75.0,F,4.51
+Oricorio Sensu Style,75.0,M,3.59
+Oricorio Baile Style,75.0,M,6.56
+Cutiefly,40.0,F,0.1
+Ribombee,60.0,M,6.29
+Rockruff,45.0,M,5.64
+Own Tempo Rockruff,45.0,M,0.64
+Lycanroc Midday Form,75.0,M,9.74
+Lycanroc Midnight Form,85.0,F,6.82
+Lycanroc Dusk Form,75.0,F,2.07
+Wishiwashi Solo Form,45.0,M,1.15
+Wishiwashi School Form,45.0,F,4.31
+Mareanie,50.0,F,6.18
+Toxapex,50.0,F,1.75
+Mudbray,70.0,M,0.45
+Mudsdale,100.0,F,5.12
+Dewpider,38.0,M,7.78
+Araquanid,68.0,M,0.22
+Fomantis,40.0,M,4.58
+Lurantis,70.0,F,2.09
+Morelull,40.0,F,7.34
+Shiinotic,60.0,M,4.66
+Salandit,48.0,F,5.85
+Salazzle,68.0,F,0.62
+Stufful,70.0,F,6.21
+Bewear,120.0,M,8.94
+Bounsweet,42.0,M,2.66
+Steenee,52.0,M,4.22
+Tsareena,72.0,F,9.06
+Comfey,51.0,F,9.13
+Oranguru,90.0,F,5.27
+Passimian,100.0,F,4.07
+Wimpod,25.0,F,8.23
+Golisopod,75.0,M,8.2
+Sandygast,55.0,M,9.47
+Palossand,85.0,M,0.3
+Pyukumuku,55.0,F,8.3
+Type: Null,95.0,M,8.03
+Silvally,95.0,M,5.31
+Minior Meteor Form,60.0,F,0.11
+Minior Core Form,60.0,M,8.85
+Komala,65.0,F,1.66
+Turtonator,60.0,F,2.12
+Togedemaru,65.0,M,4.41
+Mimikyu,55.0,F,3.51
+Bruxish,68.0,F,2.56
+Drampa,78.0,M,0.9
+Dhelmise,70.0,F,6.25
+Jangmo-o,45.0,F,3.88
+Hakamo-o,55.0,M,4.8
+Kommo-o,75.0,M,6.22
+Tapu Koko,70.0,F,2.14
+Tapu Lele,70.0,M,4.0
+Tapu Bulu,70.0,M,2.79
+Tapu Fini,70.0,M,6.72
+Cosmog,43.0,M,0.06
+Cosmoem,43.0,F,0.62
+Solgaleo,137.0,M,4.87
+Lunala,137.0,F,3.47
+Nihilego,109.0,M,9.64
+Buzzwole,107.0,M,2.44
+Pheromosa,71.0,M,2.02
+Xurkitree,83.0,M,5.06
+Celesteela,97.0,M,8.14
+Kartana,59.0,M,9.88
+Guzzlord,223.0,F,2.09
+Dusk Mane Necrozma,97.0,M,1.29
+Necrozma,97.0,F,4.79
+Dawn Wings Necrozma,97.0,M,4.75
+Ultra Necrozma,97.0,M,2.82
+Magearna,80.0,M,3.03
+Marshadow,90.0,F,6.21
+Poipole,67.0,F,9.26
+Naganadel,73.0,M,0.42
+Stakataka,61.0,M,6.47
+Blacephalon,53.0,F,6.2
+Zeraora,88.0,M,3.72
+Meltan,46.0,F,8.36
+Melmetal Gigantamax,,F,5.86
+Melmetal,135.0,F,5.7
+Grookey,50.0,F,6.34
+Thwackey,70.0,M,5.19
+Rillaboom Gigantamax,,F,2.86
+Rillaboom,100.0,F,5.93
+Scorbunny,50.0,F,7.88
+Raboot,65.0,F,6.05
+Cinderace Gigantamax,,F,4.93
+Cinderace,80.0,M,8.32
+Sobble,50.0,M,1.79
+Drizzile,65.0,M,6.93
+Inteleon Gigantamax,,M,4.82
+Inteleon,70.0,M,9.38
+Skwovet,70.0,M,0.52
+Greedent,120.0,F,4.09
+Rookidee,38.0,F,4.29
+Corvisquire,68.0,M,0.67
+Corviknight,98.0,M,7.06
+Corviknight Gigantamax,,F,3.14
+Blipbug,25.0,M,9.34
+Dottler,50.0,M,6.72
+Orbeetle,60.0,M,3.73
+Orbeetle Gigantamax,,M,6.92
+Nickit,40.0,F,4.01
+Thievul,70.0,F,1.43
+Gossifleur,40.0,F,2.33
+Eldegoss,60.0,F,0.85
+Wooloo,42.0,F,8.0
+Dubwool,72.0,M,1.85
+Chewtle,50.0,F,4.46
+Drednaw Gigantamax,,F,6.98
+Drednaw,90.0,F,1.47
+Yamper,59.0,M,3.28
+Boltund,69.0,F,3.34
+Rolycoly,30.0,F,1.78
+Carkol,80.0,M,9.72
+Coalossal Gigantamax,,F,8.81
+Coalossal,110.0,F,4.36
+Applin,40.0,M,9.29
+Flapple,70.0,M,7.54
+Flapple Gigantamax,,M,9.11
+Appletun,110.0,M,6.34
+Appletun Gigantamax,,M,7.03
+Silicobra,52.0,F,3.76
+Sandaconda Gigantamax,,M,1.29
+Sandaconda,72.0,M,9.54
+Cramorant,70.0,M,1.58
+Arrokuda,41.0,F,4.06
+Barraskewda,61.0,M,5.12
+Toxel,40.0,F,9.69
+Toxtricity Amped Form,75.0,M,7.42
+Toxtricity Low Key Form,75.0,F,8.61
+Sizzlipede,50.0,F,1.96
+Centiskorch Gigantamax,,M,8.31
+Centiskorch,100.0,M,6.5
+Clobbopus,50.0,F,1.11
+Grapploct,80.0,M,6.56
+Sinistea,40.0,M,1.27
+Polteageist,60.0,M,7.31
+Hatenna,42.0,F,9.88
+Hattrem,57.0,F,2.77
+Hatterene,57.0,F,3.25
+Hatterene Gigantamax,,F,5.57
+Impidimp,45.0,F,8.88
+Morgrem,65.0,M,3.77
+Grimmsnarl Gigantamax,,M,8.96
+Grimmsnarl,95.0,F,6.52
+Obstagoon,93.0,M,6.8
+Perrserker,70.0,F,7.15
+Cursola,60.0,M,5.69
+Sirfetch'd,62.0,M,3.43
+Mr. Rime,80.0,F,1.0
+Runerigus,58.0,M,5.93
+Milcery,45.0,M,2.01
+Alcremie,65.0,F,5.96
+Alcremie Gigantamax,,M,3.55
+Falinks,65.0,M,3.71
+Pincurchin,48.0,F,6.72
+Snom,30.0,M,2.72
+Frosmoth,70.0,M,8.48
+Stonjourner,100.0,F,6.31
+Eiscue Noice Face,75.0,F,8.44
+Eiscue Ice Face,75.0,M,8.33
+Indeedee Female,70.0,M,2.69
+Indeedee Male,60.0,F,9.08
+Morpeko Hangry Mode,58.0,F,1.79
+Morpeko Full Belly Mode,58.0,M,9.57
+Cufant,72.0,F,2.37
+Copperajah Gigantamax,,F,0.84
+Copperajah,122.0,F,3.05
+Dracozolt,90.0,F,5.78
+Arctozolt,90.0,F,2.11
+Dracovish,90.0,M,0.31
+Arctovish,90.0,F,9.01
+Duraludon,70.0,M,4.27
+Duraludon Gigantamax,,F,3.68
+Dreepy,28.0,M,6.97
+Drakloak,68.0,F,3.47
+Dragapult,88.0,M,6.56
+Zacian Hero of Many Battles,92.0,F,0.29
+Zacian Crowned Sword,92.0,M,5.56
+Zamazenta Crowned Shield,92.0,F,1.16
+Zamazenta Hero of Many Battles,92.0,M,9.38
+Eternatus Eternamax,255.0,M,2.15
+Eternatus,140.0,M,3.9
+Kubfu,60.0,M,8.71
+Urshifu (Single Strike) Gigantamax,,M,5.8
+Urshifu (Rapid Strike) Gigantamax,,M,4.3
+Urshifu Single Strike Style,100.0,M,1.05
+Urshifu Rapid Strike Style,100.0,F,0.54
+Zarude,105.0,F,6.02
+Regieleki,80.0,M,9.68
+Regidrago,200.0,M,7.97
+Glastrier,100.0,M,5.93
+Spectrier,100.0,F,6.31
+Calyrex,100.0,F,0.39
+Calyrex Shadow Rider,100.0,F,0.89
+Calyrex Ice Rider,100.0,M,9.49
