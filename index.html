@@ -33,6 +33,11 @@
                 <option value="fairy">Fairy</option>
                 <option value="grass">Grass</option>
                 <option value="ghost">Ghost</option>
+                <option value="normal">Normal</option>
+                <option value="fire">Fire</option>
+                <option value="water">Water</option>
+                <option value="flying">Flying</option>
+                <option value="fighting">Fighting</option>
             </select>
 
         </div>
@@ -53,6 +58,20 @@
         </div>
         <br>
         <div>
+            <label for="abilityName">Ability name:</label>
+            <input type="text" name="abilityName" id="abilityName">
+        </div>
+        <div>
+            <p>Ability description:</p>
+            <textarea rows="3" cols="50" id="abilityDesc" maxlength="150"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="multiplier">Multiplier:</label>
+            <input type="number" name="multiplier" id="multiplier" step="0.01">
+        </div>
+        <br>
+        <div>
             <label for="pokemonHP">HP:</label>
             <input type="number" name="pokemonHP" id="pokemonHP" min="0">
         </div>
@@ -65,6 +84,11 @@
                 <option value="fairy">Fairy</option>
                 <option value="grass">Grass</option>
                 <option value="ghost">Ghost</option>
+                <option value="normal">Normal</option>
+                <option value="fire">Fire</option>
+                <option value="water">Water</option>
+                <option value="flying">Flying</option>
+                <option value="fighting">Fighting</option>
             </select>
         </div>
         <br>
@@ -80,6 +104,10 @@
             <input type="button" value="Submit" id="insertPokemonButton">
         </div>
     </div>
+    <div id="resultContainer" hidden="true">
+
+    </div>
+
     <script src="app.js"></script>
 </body>
 
