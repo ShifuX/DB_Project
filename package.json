@@ -1,0 +1,24 @@
+{
+  "name": "db_project",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShifuX/DB_Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShifuX/DB_Project/issues"
+  },
+  "homepage": "https://github.com/ShifuX/DB_Project#readme",
+  "dependencies": {
+    "mysql2": "^3.6.5"
+  }
+}
