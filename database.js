@@ -1,5 +1,6 @@
 import mysql from "mysql2/promise";
 import express from "express";
+import cors from "cors";
 
 let port = 3001;
 
@@ -10,6 +11,12 @@ const connection = await mysql.createConnection(dbURL);
 
 const app = express();
 
+app.use(
+  cors({
+    origin: "http://127.0.0.1:5500",
+  })
+);
+
 // retrieves all the pokemon in the DB
 app.get("/pokemons", async (req, res) => {
   const query = "SELECT * FROM Pokemon";
@@ -17,6 +24,18 @@ app.get("/pokemons", async (req, res) => {
 
   if (rows.length === 0) {
     return res.json({ mssg: "Empty, no Pokemons found" });
+  }
+
+  res.send(rows);
+});
+
+app.get("/pokemon/:id", async (req, res) => {
+  const { id } = req.params;
+  const query = "SELECT * FROM Pokemon WHERE name=?";
+  const [rows] = await connection.query(query, [id]);
+
+  if (rows.length === 0) {
+    return res.json({ mssg: "Empty, no Pokemon found" });
   }
 
   res.send(rows);
