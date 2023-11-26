@@ -4,7 +4,7 @@ import express from "express";
 let port = 3001;
 
 // the URL needed to connect with the DB
-let dbURL = "";
+let dbURL = "mysql://admin:pokemon23@pokemon.cv6cnzb0rcuo.us-east-1.rds.amazonaws.com:3306/pokemon_db";
 const connection = await mysql.createConnection(dbURL);
 
 const app = express();
