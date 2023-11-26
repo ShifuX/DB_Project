@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ShifuX/DB_Project#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "mysql2": "^3.6.5"
   }
 }
