@@ -33,7 +33,7 @@ app.get("/pokemons", async (req, res) => {
 app.get("/pokemon/:id", async (req, res) => {
   const { id } = req.params;
   const query =
-    "SELECT * FROM Pokemon P, HasType T WHERE P.name=T.pokemonName AND name=?";
+    "SELECT * FROM Pokemon P, HasType T, HasAbility A, Strengths S WHERE P.name=T.pokemonName AND A.pokemonName=P.name AND S.typeName=T.typeName AND name=?";
   const [rows] = await connection.query(query, [id]);
 
   if (rows.length === 0) {
@@ -46,7 +46,7 @@ app.get("/pokemon/:id", async (req, res) => {
 app.get("/pokemonByType/:id", async (req, res) => {
   const { id } = req.params;
   const query =
-    "SELECT * FROM Pokemon P, HasType T WHERE P.name=T.pokemonName AND typeName=?";
+    "SELECT * FROM Pokemon P, HasType T, HasAbility A, Strengths S WHERE P.name=T.pokemonName AND A.pokemonName=P.name AND S.typeName=T.typeName AND T.typeName=?";
   const [rows] = await connection.query(query, [id]);
 
   if (rows.length === 0) {

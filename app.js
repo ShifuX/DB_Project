@@ -70,6 +70,9 @@ searchButton.addEventListener("click", async () => {
       <div>Sex: ${pokemon.sex}</div>
       <div>Height: ${pokemon.height}</div>
       <div>Type: ${pokemon.typeName}</div>
+      <div>Strong Against: ${pokemon.strongAgainst}</div>
+      <div>Ability Name: ${pokemon.abilityName}</div>
+      <div>Mulitiplier: ${pokemon.multiplier}</div>
       <br>
     </div>`
       )
@@ -96,7 +99,7 @@ searchButton.addEventListener("click", async () => {
   }
 
   const [pokemonData] = res.data;
-
+  console.log(pokemonData);
   // Remove existing elements
   resultContainer.innerHTML = "";
 
@@ -108,6 +111,9 @@ searchButton.addEventListener("click", async () => {
       <div>Sex: ${pokemonData.sex}</div>
       <div>Height: ${pokemonData.height}</div>
       <div>Type: ${pokemonData.typeName}</div>
+      <div>Strong Against: ${pokemonData.strongAgainst}</div>
+      <div>Ability Name: ${pokemonData.abilityName}</div>
+      <div>Mulitiplier: ${pokemonData.multiplier}</div>
   `;
 
   resultContainer.hidden = false;
