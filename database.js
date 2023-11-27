@@ -11,6 +11,7 @@ const connection = await mysql.createConnection(dbURL);
 
 const app = express();
 
+// Modify depending on your port number, the port I use is 5500 for the website
 app.use(
   cors({
     origin: "http://127.0.0.1:5500",
@@ -31,7 +32,21 @@ app.get("/pokemons", async (req, res) => {
 
 app.get("/pokemon/:id", async (req, res) => {
   const { id } = req.params;
-  const query = "SELECT * FROM Pokemon WHERE name=?";
+  const query =
+    "SELECT * FROM Pokemon P, HasType T WHERE P.name=T.pokemonName AND name=?";
+  const [rows] = await connection.query(query, [id]);
+
+  if (rows.length === 0) {
+    return res.json({ mssg: "Empty, no Pokemon found" });
+  }
+
+  res.send(rows);
+});
+
+app.get("/pokemonByType/:id", async (req, res) => {
+  const { id } = req.params;
+  const query =
+    "SELECT * FROM Pokemon P, HasType T WHERE P.name=T.pokemonName AND typeName=?";
   const [rows] = await connection.query(query, [id]);
 
   if (rows.length === 0) {
