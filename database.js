@@ -104,6 +104,24 @@ app.post("/insertPokemon", async (req, res) => {
   }
 });
 
+// app.put("updatePokemon/", async (req, res) => {
+//   let counter = 0;
+//   const { data } = req.params;
+//   //create update statement for pokemon table
+//   const query = "UPDATE Pokemon SET ";
+//   if(data.newPokemonName) {query += "name = '" + data.newPokemonName +"'"; counter++;}
+//   if(counter > 0) { query += ',';}
+//   if(data.pokemonHeight) {query += "height = '" + data.pokemonHeight +"'"; counter++;}
+//   if(counter > 0) { query += ',';}
+//   if(data.updatePokemonSex) {query += "height = '" + data.updatePokemonSex +"'"; counter++;}
+//   if(counter > 0) { query += ',';}
+//   if(data.updatePokemonHP) {query += "height = '" + data.updatePokemonHP +"'"; counter++;}
+//   query += " WHERE name = " + data.updatePokemonName;
+
+//   console.log(query);
+
+// });
+
 app.listen(port, () => {
   console.log(`Server running on port: ${port}`);
 });
