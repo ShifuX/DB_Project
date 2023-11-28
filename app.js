@@ -17,12 +17,16 @@ const pokemonSexDropDown = document.getElementById("pokemonSex");
 const insertButton = document.getElementById("insertPokemonButton");
 
 // Delete fields
-const deletePokemonContainer = document.getElementById("deletePokemonContainer");
+const deletePokemonContainer = document.getElementById(
+  "deletePokemonContainer"
+);
 const deleteButton = document.getElementById("deleteButton");
 const deletePokemonName = document.getElementById("deletePokemonName");
 
 // Update Fields
-const updatePokemonContainer = document.getElementById("updatePokemonContainer");
+const updatePokemonContainer = document.getElementById(
+  "updatePokemonContainer"
+);
 const updatePokemonButton = document.getElementById("updatePokemonButton");
 const updatePokemonName = document.getElementById("updatePokemonName");
 const newPokemonName = document.getElementById("newPokemonName");
@@ -164,7 +168,7 @@ deleteButton.addEventListener("click", async () => {
   let URL = `http://localhost:3001/pokemon/${pokemonName}`;
   const res = await axios.get(URL);
   // search if pokemon exists
-  if (res.data.mssg) {                                   
+  if (res.data.mssg) {
     resultContainer.innerHTML = "";
     const errorElement = document.createElement("h2");
     const errorTextElement = document.createTextNode("No record found");
@@ -172,7 +176,8 @@ deleteButton.addEventListener("click", async () => {
     resultContainer.appendChild(errorElement);
     resultContainer.hidden = false;
     return;
-  } else {        //if pokemon exists delete it
+  } else {
+    //if pokemon exists delete it
     resultContainer.innerHTML = "";
     const resultElement = document.createElement("h2");
     const resultTextElement = document.createTextNode("Record deleted");
@@ -206,30 +211,22 @@ insertButton.addEventListener("click", async () => {
     abilityName: abilityName,
     pokemonHP: pokemonHP,
     pokemonType: selectedType.toString().toLowerCase(),
-    pokemonSex: selectedSex.toString().toLowerCase()
+    pokemonSex: selectedSex.toString().toLowerCase(),
   });
-  
+
   // Display message sent by server
   resultContainer.innerHTML = `<div> ${result.data.mssg} </div>`;
   return;
 });
 
-// updatePokemonButton.addEventListener("click", async () => {
-//   let data = {
-//     pokemonName: updatePokemonName.value, 
-//     newPokemonName: newPokemonName.value,
-//     pokemonHeight: pokemonHeight.value,
-//     abilityName: updateAbilityName.value,
-//     abilityDesc: updateAbilityDesc.value,
-//     multiplier: updateMultiplier.value,
-//     pokemonHP: updatePokemonHP.value,
-//     pokemonType: updateTypes.value,
-//     pokemonSex: updatePokemonSex.value,
-//   }
-//   let name = updatePokemonName.value;
-//   //console.log(data);
+updatePokemonButton.addEventListener("click", async () => {
+  let data = {
+    pokemonName: newPokemonName.value,
+    pokemonHP: updatePokemonHP.value,
+  };
+  let name = updatePokemonName.value;
+  //console.log(data);
 
-//   let URL = `http://localhost:3001/updatePokemon/`;
-//   const res = await axios.put(URL, data);
-
-// });
+  let URL = `http://localhost:3001/updatePokemon/${name}`;
+  const res = await axios.put(URL, data);
+});

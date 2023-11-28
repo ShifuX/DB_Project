@@ -72,7 +72,7 @@ app.get("/types", async (req, res) => {
 
 app.delete("/deletePokemon/:id", async (req, res) => {
   const { id } = req.params;
-  const query = "DELETE FROM Pokemon WHERE name='"+id+"'";
+  const query = "DELETE FROM Pokemon WHERE name='" + id + "'";
   await connection.query(query);
 });
 
@@ -88,39 +88,47 @@ app.post("/insertPokemon", async (req, res) => {
     INSERT INTO HasAbility
     VALUES (?, ?)`;
   try {
-    await connection.query(pokemonQuery, [req.body.pokemonName, req.body.pokemonSex, req.body.pokemonHP]);
+    await connection.query(pokemonQuery, [
+      req.body.pokemonName,
+      req.body.pokemonSex,
+      req.body.pokemonHP,
+    ]);
     console.log("Inserted into Pokemon");
-    await connection.query(hasTypeQuery, [req.body.pokemonName, req.body.pokemonType]);
+    await connection.query(hasTypeQuery, [
+      req.body.pokemonName,
+      req.body.pokemonType,
+    ]);
     console.log("Inserted into HasType");
-    await connection.query(hasAbilityQuery, [req.body.pokemonName, req.body.abilityName]);
+    await connection.query(hasAbilityQuery, [
+      req.body.pokemonName,
+      req.body.abilityName,
+    ]);
     console.log("Inserted into HasAbility");
     console.log("Successfully inserted pokemon: " + req.body.pokemonName);
-    return res.json({mssg: "Successfully inserted pokemon into database"});
-  }
-  catch (exception) {
+    return res.json({ mssg: "Successfully inserted pokemon into database" });
+  } catch (exception) {
     console.log(exception.message);
-    let message = "Failed to insert pokemon into database: " + exception.message;
-    return res.json({mssg: message});
+    let message =
+      "Failed to insert pokemon into database: " + exception.message;
+    return res.json({ mssg: message });
   }
 });
 
-// app.put("updatePokemon/", async (req, res) => {
-//   let counter = 0;
-//   const { data } = req.params;
-//   //create update statement for pokemon table
-//   const query = "UPDATE Pokemon SET ";
-//   if(data.newPokemonName) {query += "name = '" + data.newPokemonName +"'"; counter++;}
-//   if(counter > 0) { query += ',';}
-//   if(data.pokemonHeight) {query += "height = '" + data.pokemonHeight +"'"; counter++;}
-//   if(counter > 0) { query += ',';}
-//   if(data.updatePokemonSex) {query += "height = '" + data.updatePokemonSex +"'"; counter++;}
-//   if(counter > 0) { query += ',';}
-//   if(data.updatePokemonHP) {query += "height = '" + data.updatePokemonHP +"'"; counter++;}
-//   query += " WHERE name = " + data.updatePokemonName;
+app.put("/updatePokemon/:id", async (req, res) => {
+  const { id } = req.params;
+  const { pokemonName, pokemonHP } = req.body;
+  //create update statement for pokemon table
 
-//   console.log(query);
+  if (pokemonName === "") {
+    pokemonName = id;
+  }
 
-// });
+  const query = "UPDATE Pokemon SET name=?, HP=? WHERE name=?";
+  const [rows] = await connection.query(query, [pokemonName, pokemonHP, id]);
+  //console.log(rows);
+
+  res.send(rows);
+});
 
 app.listen(port, () => {
   console.log(`Server running on port: ${port}`);
