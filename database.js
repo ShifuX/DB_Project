@@ -67,6 +67,12 @@ app.get("/types", async (req, res) => {
   res.send(rows);
 });
 
+app.delete("/deletePokemon/:id", async (req, res) => {
+  const { id } = req.params;
+  const query = "DELETE FROM Pokemon WHERE name='"+id+"'";
+  await connection.query(query);
+});
+
 app.listen(port, () => {
   console.log(`Server running on port: ${port}`);
 });

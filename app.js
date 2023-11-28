@@ -15,6 +15,11 @@ const insertTypesDropDown = document.getElementById("insertTypes");
 const pokemonSexDropDown = document.getElementById("pokemonSex");
 const insertButton = document.getElementById("insertPokemonButton");
 
+// Delete fields
+const deletePokemonContainer = document.getElementById("deletePokemonContainer");
+const deleteButton = document.getElementById("deleteButton");
+const deletePokemonName = document.getElementById("deletePokemonName");
+
 // Result
 const resultContainer = document.getElementById("resultContainer");
 
@@ -26,14 +31,22 @@ optionSelectorDropDown.addEventListener("change", () => {
     insertPokemonContainer.hidden = true;
     searchContainer.hidden = false;
     resultContainer.hidden = true;
+    deletePokemonContainer.hidden = true;
   } else if (selectedOption === "Insert") {
     searchContainer.hidden = true;
     insertPokemonContainer.hidden = false;
     resultContainer.hidden = true;
+    deletePokemonContainer.hidden = true;
   } else if (selectedOption === "--Select--") {
     searchContainer.hidden = true;
     insertPokemonContainer.hidden = true;
     resultContainer.hidden = true;
+    deletePokemonContainer.hidden = true;
+  } else if (selectedOption === "Delete") {
+    searchContainer.hidden = true;
+    insertPokemonContainer.hidden = true;
+    resultContainer.hidden = true;
+    deletePokemonContainer.hidden = false;
   }
 });
 
@@ -119,4 +132,31 @@ searchButton.addEventListener("click", async () => {
   resultContainer.hidden = false;
 
   console.log(pokemonData);
+});
+
+deleteButton.addEventListener("click", async () => {
+  let pokemonName = deletePokemonName.value;
+
+  let URL = `http://localhost:3001/pokemon/${pokemonName}`;
+  const res = await axios.get(URL);
+  // search if pokemon exists
+  if (res.data.mssg) {                                   
+    resultContainer.innerHTML = "";
+    const errorElement = document.createElement("h2");
+    const errorTextElement = document.createTextNode("No record found");
+    errorElement.appendChild(errorTextElement);
+    resultContainer.appendChild(errorElement);
+    resultContainer.hidden = false;
+    return;
+  } else {        //if pokemon exists delete it
+    resultContainer.innerHTML = "";
+    const resultElement = document.createElement("h2");
+    const resultTextElement = document.createTextNode("Record deleted");
+    resultElement.appendChild(resultTextElement);
+    resultContainer.appendChild(resultElement);
+    resultContainer.hidden = false;
+    URL = `http://localhost:3001/deletePokemon/${pokemonName}`;
+    res = await axios.delete(URL);
+    return;
+  }
 });
