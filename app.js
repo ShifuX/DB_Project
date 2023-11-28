@@ -192,7 +192,7 @@ insertButton.addEventListener("click", async () => {
   let selectedSex = pokemonSexDropDown.options[pokemonSexDropDown.selectedIndex].text;
 
   // Reject incomplete input
-  if (selectedType === "default" || pokemonName === "" || abilityName === "") {
+  if (selectedType === "--Select--" || pokemonName === "" || abilityName === "") {
     resultContainer.innerHTML = "<div> Select an option above </div>";
     resultContainer.hidden = false;
     return;
