@@ -20,7 +20,8 @@ app.use(
 
 // Support JSON-encoded and URL-encoded post bodies
 app.use(express.json());
-
+app.engine("html", require("ejs").renderFile);
+app.set("view engine", "html");
 // Test rendering index.html
 app.get("/", function (req, res) {
   res.render("index", {});
