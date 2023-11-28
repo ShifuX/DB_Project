@@ -34,7 +34,7 @@ CREATE TABLE Strengths (
 	CONSTRAINT Strengths_PK PRIMARY KEY (typeName, strongAgainst),
 	CONSTRAINT Strengths_FK1 FOREIGN KEY (typeName) REFERENCES Type(name)
 		ON DELETE CASCADE	ON UPDATE CASCADE,
-	CONSTRAINT Strenghts_FK2 FOREIGN KEY (strongAgainst) REFERENCES Pokemon(name)
+	CONSTRAINT Strenghts_FK2 FOREIGN KEY (strongAgainst) REFERENCES Type(name)
 		ON DELETE CASCADE	ON UPDATE CASCADE
 );
 
