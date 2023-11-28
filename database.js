@@ -2,7 +2,7 @@ import mysql from "mysql2/promise";
 import express from "express";
 import cors from "cors";
 
-let port = 3001;
+let PORT = process.env.PORT || 3001;
 
 // the URL needed to connect with the DB
 let dbURL =
@@ -128,6 +128,6 @@ app.put("/updatePokemon/:id", async (req, res) => {
   res.send(rows);
 });
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Server running on port: ${port}`);
 });
