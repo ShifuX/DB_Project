@@ -18,6 +18,9 @@ app.use(
   })
 );
 
+// Support JSON-encoded and URL-encoded post bodies
+app.use(express.json());
+
 // retrieves all the pokemon in the DB
 app.get("/pokemons", async (req, res) => {
   const query = "SELECT * FROM Pokemon";
@@ -65,6 +68,34 @@ app.get("/types", async (req, res) => {
   }
 
   res.send(rows);
+});
+
+app.post("/insertPokemon", async (req, res) => {
+  console.log("Insert request received");
+  const pokemonQuery = `
+    INSERT INTO Pokemon (name, sex, HP)
+    VALUES (?, ?, ?)`;
+  const hasTypeQuery = `
+    INSERT INTO HasType
+    VALUES (?, ?)`;
+  const hasAbilityQuery = `
+    INSERT INTO HasAbility
+    VALUES (?, ?)`;
+  try {
+    await connection.query(pokemonQuery, [req.body.pokemonName, req.body.pokemonSex, req.body.pokemonHP]);
+    console.log("Inserted into Pokemon");
+    await connection.query(hasTypeQuery, [req.body.pokemonName, req.body.pokemonType]);
+    console.log("Inserted into HasType");
+    await connection.query(hasAbilityQuery, [req.body.pokemonName, req.body.abilityName]);
+    console.log("Inserted into HasAbility");
+    console.log("Successfully inserted pokemon: " + req.body.pokemonName);
+    return res.json({mssg: "Successfully inserted pokemon into database"});
+  }
+  catch (exception) {
+    console.log(exception.message);
+    let message = "Failed to insert pokemon into database: " + exception.message;
+    return res.json({mssg: message});
+  }
 });
 
 app.listen(port, () => {

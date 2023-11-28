@@ -20,7 +20,7 @@
     <div id="searchContainer" hidden="true">
         <h2>Search for a Pokemon</h2>
         <div>
-            <label for="pokemonName">Pokemon Name:</label>
+            <label for="pokemonName">Pokemon name:</label>
             <input type="text" name="pokemonName" id="pokemonName">
         </div>
 
@@ -54,31 +54,22 @@
     <div id="insertPokemonContainer" hidden="true">
         <h2>Add a Pokemon</h2>
         <div>
-            <label for="insertPokemonName">Pokemon Name:</label>
-            <input type="text" name="insertPokemonName" id="insertPokemonName">
+            <label for="insertPokemonName">Pokemon name:</label>
+            <input type="text" name="pokemonName" id="insertPokemonName">
         </div>
         <br>
         <div>
             <label for="abilityName">Ability name:</label>
             <input type="text" name="abilityName" id="abilityName">
         </div>
-        <div>
-            <p>Ability description:</p>
-            <textarea rows="3" cols="50" id="abilityDesc" maxlength="150"></textarea>
-        </div>
-        <br>
-        <div>
-            <label for="multiplier">Multiplier:</label>
-            <input type="number" name="multiplier" id="multiplier" step="0.01">
-        </div>
         <br>
         <div>
             <label for="pokemonHP">HP:</label>
-            <input type="number" name="pokemonHP" id="pokemonHP" min="0">
+            <input type="number" name="pokemonHP" id="pokemonHP" min="0" value="0">
         </div>
         <br>
         <div>
-            <label for="insertTypes">Select by types:</label>
+            <label for="insertTypes">Pokemon type:</label>
             <select name="insertTypes" id="insertTypes">
                 <option value="default">--Select--</option>
                 <option value="dark">Dark</option>

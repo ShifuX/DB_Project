@@ -10,7 +10,8 @@ const pokemonTypeSearchDropDown = document.getElementById("types");
 const searchButton = document.getElementById("searchButton");
 // Insert fields
 const pokemonNameInsert = document.getElementById("insertPokemonName");
-const pokemonHP = document.getElementById("pokemonHP");
+const abilityNameInsert = document.getElementById("abilityName");
+const pokemonHPInsert = document.getElementById("pokemonHP");
 const insertTypesDropDown = document.getElementById("insertTypes");
 const pokemonSexDropDown = document.getElementById("pokemonSex");
 const insertButton = document.getElementById("insertPokemonButton");
@@ -119,4 +120,33 @@ searchButton.addEventListener("click", async () => {
   resultContainer.hidden = false;
 
   console.log(pokemonData);
+});
+
+insertButton.addEventListener("click", async () => {
+  let pokemonName = pokemonNameInsert.value;
+  let abilityName = abilityNameInsert.value;
+  let pokemonHP = pokemonHPInsert.value;
+  let selectedType = pokemonTypeSearchDropDown.selectedIndex.value;
+  let selectedSex = pokemonSexDropDown.selectedIndex.value;
+
+  // Reject incomplete input
+  if (selectedType === "default" || pokemonName === "" || abilityName === "") {
+    resultContainer.innerHTML = "<div> Select an option above </div>";
+    resultContainer.hidden = false;
+    return;
+  }
+
+  // Send insert request to server
+  let URL = `http://localhost:3001/insertPokemon`;
+  const result = await axios.post(URL, {
+    pokemonName: pokemonName,
+    abilityName: abilityName,
+    pokemonHP: pokemonHP,
+    pokemonType: selectedType.toString().toLowerCase(),
+    pokemonSex: selectedSex.toString().toLowerCase()
+  });
+  
+  // Display message sent by server
+  resultContainer.innerHTML = `<div> ${result.data.mssg} </div>`;
+  return;
 });
