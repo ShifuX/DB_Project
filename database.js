@@ -18,6 +18,14 @@ app.use(
   })
 );
 
+app.use(function (req, res, next) {
+  res.setHeader(
+    "Content-Security-Policy",
+    "script-src 'self' https://db-project-jde5.onrender.com/"
+  );
+  next();
+});
+
 // Support JSON-encoded and URL-encoded post bodies
 app.use(express.json());
 
