@@ -21,6 +21,11 @@ app.use(
 // Support JSON-encoded and URL-encoded post bodies
 app.use(express.json());
 
+// Test rendering index.html
+app.get("/", function (req, res) {
+  res.render("index", {});
+});
+
 // retrieves all the pokemon in the DB
 app.get("/pokemons", async (req, res) => {
   const query = "SELECT * FROM Pokemon";
