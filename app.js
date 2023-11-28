@@ -1,9 +1,7 @@
 // Container fields
 const optionSelectorDropDown = document.getElementById("optionSelector");
 const searchContainer = document.getElementById("searchContainer");
-const insertPokemonContainer = document.getElementById(
-  "insertPokemonContainer"
-);
+const insertPokemonContainer = document.getElementById("insertPokemonContainer");
 // Search fields
 const pokemonNameSearch = document.getElementById("pokemonName");
 const pokemonTypeSearchDropDown = document.getElementById("types");
@@ -15,6 +13,7 @@ const pokemonHPInsert = document.getElementById("pokemonHP");
 const insertTypesDropDown = document.getElementById("insertTypes");
 const pokemonSexDropDown = document.getElementById("pokemonSex");
 const insertButton = document.getElementById("insertPokemonButton");
+const pokemonHeightInsert = document.getElementById("pokemonHeight");
 
 // Delete fields
 const deletePokemonContainer = document.getElementById(
@@ -194,8 +193,9 @@ insertButton.addEventListener("click", async () => {
   let pokemonName = pokemonNameInsert.value;
   let abilityName = abilityNameInsert.value;
   let pokemonHP = pokemonHPInsert.value;
-  let selectedType = pokemonTypeSearchDropDown.selectedIndex.value;
-  let selectedSex = pokemonSexDropDown.selectedIndex.value;
+  let pokemonHeight = pokemonHeightInsert.value;
+  let selectedType = insertTypesDropDown.options[insertTypesDropDown.selectedIndex].text;
+  let selectedSex = pokemonSexDropDown.options[pokemonSexDropDown.selectedIndex].text;
 
   // Reject incomplete input
   if (selectedType === "default" || pokemonName === "" || abilityName === "") {
@@ -210,13 +210,22 @@ insertButton.addEventListener("click", async () => {
     pokemonName: pokemonName,
     abilityName: abilityName,
     pokemonHP: pokemonHP,
+    pokemonHeight: pokemonHeight,
     pokemonType: selectedType.toString().toLowerCase(),
     pokemonSex: selectedSex.toString().toLowerCase(),
   });
 
   // Display message sent by server
-  resultContainer.innerHTML = `<div> ${result.data.mssg} </div>`;
+  let errorMssg = result.data.mssg;
+  resultContainer.innerHTML = "";
+  const errorElement = document.createElement("h2");
+  const errorTextElement = document.createTextNode(errorMssg);
+  errorElement.appendChild(errorTextElement);
+  resultContainer.appendChild(errorElement);
+  resultContainer.hidden = false;
   return;
+  // resultContainer.innerHTML = `<div> ${result.data.mssg} </div>`;
+  // return;
 });
 
 updatePokemonButton.addEventListener("click", async () => {
