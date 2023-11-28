@@ -15,6 +15,7 @@
             <option value="default">--Select--</option>
             <option value="search">Search</option>
             <option value="insert">Insert</option>
+            <option value="delete">Delete</option>
         </select>
     </div>
     <div id="searchContainer" hidden="true">
@@ -49,6 +50,19 @@
         <div>
             <h2 id="displayPokemonName"></h2>
         </div>
+    </div>
+
+    <div id="deletePokemonContainer" hidden="true">
+        <h2>Delete a Pokemon</h2>
+        <div>
+            <label for="deletePokemonName">Pokemon Name:</label>
+            <input type="text" name="deletePokemonName" id="deletePokemonName">
+        </div>
+        <br>
+        <div>
+            <input type="button" value="Delete" id="deleteButton">
+        </div>
+        <br>
     </div>
 
     <div id="insertPokemonContainer" hidden="true">

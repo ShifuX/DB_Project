@@ -70,6 +70,12 @@ app.get("/types", async (req, res) => {
   res.send(rows);
 });
 
+app.delete("/deletePokemon/:id", async (req, res) => {
+  const { id } = req.params;
+  const query = "DELETE FROM Pokemon WHERE name='"+id+"'";
+  await connection.query(query);
+});
+
 app.post("/insertPokemon", async (req, res) => {
   console.log("Insert request received");
   const pokemonQuery = `
