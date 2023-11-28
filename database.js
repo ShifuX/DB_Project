@@ -14,7 +14,7 @@ const app = express();
 // Modify depending on your port number, the port I use is 5500 for the website
 app.use(
   cors({
-    origin: "https://db-project-jde5.onrender.com/",
+    
   })
 );
 
