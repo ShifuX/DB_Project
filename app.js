@@ -29,13 +29,7 @@ const updatePokemonContainer = document.getElementById(
 const updatePokemonButton = document.getElementById("updatePokemonButton");
 const updatePokemonName = document.getElementById("updatePokemonName");
 const newPokemonName = document.getElementById("newPokemonName");
-const pokemonHeight = document.getElementById("pokemonHeight");
-const updateAbilityName = document.getElementById("updateAbilityName");
-const updateAbilityDesc = document.getElementById("updateAbilityDesc");
-const updateMultiplier = document.getElementById("updateMultiplier");
 const updatePokemonHP = document.getElementById("updatePokemonHP");
-const updateTypes = document.getElementById("updateTypes");
-const updatePokemonSex = document.getElementById("updatePokemonSex");
 
 // Result
 const resultContainer = document.getElementById("resultContainer");
@@ -234,7 +228,7 @@ updatePokemonButton.addEventListener("click", async () => {
     pokemonHP: updatePokemonHP.value,
   };
   let name = updatePokemonName.value;
-  //console.log(data);
+
 
   let URL = `http://localhost:3001/updatePokemon/${name}`;
   const res = await axios.put(URL, data);

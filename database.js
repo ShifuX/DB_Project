@@ -114,8 +114,7 @@ app.post("/insertPokemon", async (req, res) => {
 
 app.put("/updatePokemon/:id", async (req, res) => {
   const { id } = req.params;
-  const { pokemonName, pokemonHP } = req.body;
-  //create update statement for pokemon table
+  let { pokemonName, pokemonHP } = req.body;
 
   if (pokemonName === "") {
     pokemonName = id;
@@ -123,7 +122,6 @@ app.put("/updatePokemon/:id", async (req, res) => {
 
   const query = "UPDATE Pokemon SET name=?, HP=? WHERE name=?";
   const [rows] = await connection.query(query, [pokemonName, pokemonHP, id]);
-  //console.log(rows);
 
   res.send(rows);
 });
