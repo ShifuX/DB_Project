@@ -14,17 +14,9 @@ const app = express();
 // Modify depending on your port number, the port I use is 5500 for the website
 app.use(
   cors({
-    
+    origin: "https://localhost:5500",
   })
 );
-
-app.use(function (req, res, next) {
-  res.setHeader(
-    "Content-Security-Policy",
-    "script-src 'self' https://db-project-jde5.onrender.com/"
-  );
-  next();
-});
 
 // Support JSON-encoded and URL-encoded post bodies
 app.use(express.json());
