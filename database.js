@@ -79,8 +79,8 @@ app.delete("/deletePokemon/:id", async (req, res) => {
 app.post("/insertPokemon", async (req, res) => {
   console.log("Insert request received");
   const pokemonQuery = `
-    INSERT INTO Pokemon (name, sex, HP)
-    VALUES (?, ?, ?)`;
+    INSERT INTO Pokemon
+    VALUES (?, ?, ?, ?)`;
   const hasTypeQuery = `
     INSERT INTO HasType
     VALUES (?, ?)`;
@@ -88,12 +88,9 @@ app.post("/insertPokemon", async (req, res) => {
     INSERT INTO HasAbility
     VALUES (?, ?)`;
   try {
-    await connection.query(pokemonQuery, [req.body.pokemonName, req.body.pokemonSex, req.body.pokemonHP]);
-    console.log("Inserted into Pokemon");
+    await connection.query(pokemonQuery, [req.body.pokemonName, req.body.pokemonHeight, req.body.pokemonSex, req.body.pokemonHP]), 
     await connection.query(hasTypeQuery, [req.body.pokemonName, req.body.pokemonType]);
-    console.log("Inserted into HasType");
     await connection.query(hasAbilityQuery, [req.body.pokemonName, req.body.abilityName]);
-    console.log("Inserted into HasAbility");
     console.log("Successfully inserted pokemon: " + req.body.pokemonName);
     return res.json({mssg: "Successfully inserted pokemon into database"});
   }
